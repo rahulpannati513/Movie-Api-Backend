@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    username: root
+    password: Rahul@123
+    url: jdbc:mysql://localhost:3306/movies_db
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+project:
+  poster: posters/
+
+server:
+  port: 8081
+
+base:
+  url: "http://localhost:8081/"

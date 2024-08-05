@@ -1,0 +1,17 @@
+
+JWT dependency -> pom.xml
+user model -> with 'refreshToken' field
+user repo
+refreshToken -> model
+refreshToken repo
+ApplicationConfig -> for beans of important interfaces/classes
+
+JWTService  - variable methods for validating and extracting information from the token
+RefreshTokenService - which will provide
+
+
+AuthFilterService - a filter which will intercept the req and validate wheather the req is valid or not and then forward the req to the controller
+
+
+
+
